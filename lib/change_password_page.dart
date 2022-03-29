@@ -56,7 +56,7 @@ class _ChangePasswordState extends State<ChangePasswordScreen> {
                  showModalBottomSheet(context: context, builder: ( (builder) =>_buildBottomSheet()));
                  
                },
-              child:  Text("Clicked"),
+              child:  Text("Pick Image"),
             ),
 
           ],
@@ -86,7 +86,7 @@ class _ChangePasswordState extends State<ChangePasswordScreen> {
             radius: 80,
 
             backgroundImage:FileImage(File(_imageFile!.path)),
-              
+
           )
         }
 
